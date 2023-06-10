@@ -16,3 +16,17 @@ header{
 .mp30{
     margin-top: 30px;
 }
+.header-content-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navBar{
+    display: flex;
+}
+.menu-item{
+    margin-left: 20px;
+}
+.menu-active{
+    font-weight: 700;
+}
