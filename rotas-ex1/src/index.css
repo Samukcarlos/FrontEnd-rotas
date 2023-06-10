@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+:root{
+  --color-bg-primary: #fff;
+  --color-bg-secundary: #ff2323;
+  --color-bg-tertiary: #dadada;
+
+  --color-font-primary: #6f6f6f ;
+  --color-font-secundary: #fff ;
+  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+body{
+  background-color: var(--color-bg-tertiary);
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+.dflex{
+  display: flex;
+}
+
+.container{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
